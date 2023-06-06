@@ -18,9 +18,9 @@
             <div>
                 <h2>Show me how it looks</h2>
             </div>
-            <div>
+            <div id="demo" >
                 <input type="email" name="" id="" placeholder="your email adress" class="email">
-                <button class="btn"><p class="submit">Register Now</p></button>
+                <button class="btn" onclick="myFunction()"><p class="submit">Register Now</p></button>
             </div>
             <div>
                 <p class="offer">
@@ -51,5 +51,11 @@
             
         </div>
     </div>
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "<h1>Thank You!</h1>";
+        }
+        </script>
+        
 </body>
 </html>
